@@ -60,3 +60,6 @@ keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if ne
 -- diffview
 keymap.set("n", "<leader>do", ":DiffviewOpen<CR>") -- open diffview
 keymap.set("n", "<leader>dx", ":DiffviewClose<CR>") -- open diffview
+
+-- git-blame
+keymap.set("n", "<leader>b", ":GitBlameOpenCommitURL<CR>")
